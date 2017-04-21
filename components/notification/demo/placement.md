@@ -33,6 +33,8 @@ ReactDOM.render(
       onChange={(val) => {
         notification.config({
           placement: val,
+          bottom: 50,
+          duration: 3,
         });
       }}
     >
